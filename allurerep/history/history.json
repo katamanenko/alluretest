@@ -1,0 +1,42 @@
+{
+  "249e92f5f30d1f319ccfe110d9cd39a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c42e7e16aa7cc9db",
+      "status" : "failed",
+      "statusDetails" : "This is from assert fail",
+      "time" : {
+        "start" : 1555940295469,
+        "stop" : 1555940295641,
+        "duration" : 172
+      }
+    } ]
+  },
+  "92e149149a0270c012f7af5095d4e576" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8abea67e42095dc",
+      "status" : "broken",
+      "statusDetails" : "inside get message",
+      "time" : {
+        "start" : 1555940295766,
+        "stop" : 1555940295766,
+        "duration" : 0
+      }
+    } ]
+  }
+}

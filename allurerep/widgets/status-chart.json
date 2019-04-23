@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c42e7e16aa7cc9db",
+  "name" : "TC1-My TC",
+  "time" : {
+    "start" : 1555940295469,
+    "stop" : 1555940295641,
+    "duration" : 172
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8abea67e42095dc",
+  "name" : "TC2-My TC",
+  "time" : {
+    "start" : 1555940295766,
+    "stop" : 1555940295766,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

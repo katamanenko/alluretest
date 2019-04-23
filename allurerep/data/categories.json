@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "This is from assert fail",
+      "children" : [ {
+        "name" : "TC1-My TC",
+        "uid" : "c42e7e16aa7cc9db",
+        "parentUid" : "f24804be3d6701cdc251715bcf75e566",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555940295469,
+          "stop" : 1555940295641,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f24804be3d6701cdc251715bcf75e566"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "inside get message",
+      "children" : [ {
+        "name" : "TC2-My TC",
+        "uid" : "c8abea67e42095dc",
+        "parentUid" : "1148e911266fdba0b3f7e91a61e5e75c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555940295766,
+          "stop" : 1555940295766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1148e911266fdba0b3f7e91a61e5e75c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

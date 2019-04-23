@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DEFRAVD828665",
+    "children" : [ {
+      "name" : "36464@DEFRAVD828665.main(1)",
+      "children" : [ {
+        "name" : "TC1-My TC",
+        "uid" : "c42e7e16aa7cc9db",
+        "parentUid" : "abc45c564af2fa9ac34b9e8449bd2303",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555940295469,
+          "stop" : 1555940295641,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC2-My TC",
+        "uid" : "c8abea67e42095dc",
+        "parentUid" : "abc45c564af2fa9ac34b9e8449bd2303",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555940295766,
+          "stop" : 1555940295766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abc45c564af2fa9ac34b9e8449bd2303"
+    } ],
+    "uid" : "0fd033da8316ff2126e2055a2484a525"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Some feature",
+    "children" : [ {
+      "name" : "TC1-My TC",
+      "uid" : "c42e7e16aa7cc9db",
+      "parentUid" : "d883f6beab019a915f2d3613a416c87c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555940295469,
+        "stop" : 1555940295641,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC2-My TC",
+      "uid" : "c8abea67e42095dc",
+      "parentUid" : "d883f6beab019a915f2d3613a416c87c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555940295766,
+        "stop" : 1555940295766,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d883f6beab019a915f2d3613a416c87c"
+  } ]
+}

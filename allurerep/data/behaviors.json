@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Some feature",
+    "children" : [ {
+      "name" : "TC1-My TC",
+      "children" : [ {
+        "name" : "TC1-My TC",
+        "uid" : "c42e7e16aa7cc9db",
+        "parentUid" : "c36c4b2f77182c977d64d1ff920a187c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555940295469,
+          "stop" : 1555940295641,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36c4b2f77182c977d64d1ff920a187c"
+    }, {
+      "name" : "TC2-My TC",
+      "children" : [ {
+        "name" : "TC2-My TC",
+        "uid" : "c8abea67e42095dc",
+        "parentUid" : "a18735a25c187c1e0cc4d07d892f59c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555940295766,
+          "stop" : 1555940295766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a18735a25c187c1e0cc4d07d892f59c2"
+    } ],
+    "uid" : "b011e9f48a54053befe21ff6394216c0"
+  } ]
+}

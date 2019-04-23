@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Some feature",
+    "children" : [ {
+      "name" : "TC1-My TC",
+      "uid" : "c42e7e16aa7cc9db",
+      "parentUid" : "3848c3984da8927182a18fbe799a18a6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555940295469,
+        "stop" : 1555940295641,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC2-My TC",
+      "uid" : "c8abea67e42095dc",
+      "parentUid" : "3848c3984da8927182a18fbe799a18a6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555940295766,
+        "stop" : 1555940295766,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3848c3984da8927182a18fbe799a18a6"
+  } ]
+}

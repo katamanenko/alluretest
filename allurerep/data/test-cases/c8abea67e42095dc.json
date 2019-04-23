@@ -1,0 +1,95 @@
+{
+  "uid" : "c8abea67e42095dc",
+  "name" : "TC2-My TC",
+  "fullName" : "Some feature: TC2-My TC",
+  "historyId" : "92e149149a0270c012f7af5095d4e576",
+  "time" : {
+    "start" : 1555940295766,
+    "stop" : 1555940295766,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "inside get message",
+  "statusTrace" : "Custom excpetion description: inside get message\r\n\tat Steps.bla_is_bla2(Steps.java:16)\r\n\tat ✽.Given Bla is bla2(Trade.feature:10)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "inside get message",
+    "statusTrace" : "Custom excpetion description: inside get message\r\n\tat Steps.bla_is_bla2(Steps.java:16)\r\n\tat ✽.Given Bla is bla2(Trade.feature:10)\r\n",
+    "steps" : [ {
+      "name" : "Given  Bla is bla2",
+      "time" : {
+        "start" : 1555940295766,
+        "stop" : 1555940295766,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Some feature"
+  }, {
+    "name" : "story",
+    "value" : "TC2-My TC"
+  }, {
+    "name" : "tag",
+    "value" : "Run"
+  }, {
+    "name" : "host",
+    "value" : "DEFRAVD828665"
+  }, {
+    "name" : "thread",
+    "value" : "36464@DEFRAVD828665.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Some feature"
+  }, {
+    "name" : "suite",
+    "value" : "Some feature"
+  }, {
+    "name" : "testClass",
+    "value" : "TC2-My TC"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Run" ]
+  },
+  "source" : "c8abea67e42095dc.json",
+  "parameterValues" : [ ]
+}
